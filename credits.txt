@@ -1,0 +1,23 @@
+---Resources on Learning tkinter---
+w3school: https://www.w3schools.in/python-tutorial/gui-programming/
+
+Python GUI with Tkinter Playlist -created by thenewboston:
+https://www.youtube.com/watch?v=RJB1Ek2Ko_Y&list=PL6gx4Cwl9DGBwibXFtPtflztSNPGuIB_d
+
+Tkinter HyperLink Tutorial:
+https://stackoverflow.com/questions/23482748/how-to-create-a-hyperlink-with-a-label-in-tkinter
+
+Tkinter Course Tutorial:
+https://www.python-course.eu/tkinter_buttons.php
+
+---Database Tutorial---
+Python SQlite Tutorial - created by Corey Schafer:
+https://www.youtube.com/watch?v=pd-0G0MigUA
+
+SQlite Tutorial:
+https://www.sqlitetutorial.net/sqlite-python/
+
+LikeGeeks SQlite Tutorial:
+https://likegeeks.com/python-sqlite3-tutorial/
+
+
