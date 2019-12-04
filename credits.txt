@@ -10,6 +10,13 @@ https://stackoverflow.com/questions/23482748/how-to-create-a-hyperlink-with-a-la
 Tkinter Course Tutorial:
 https://www.python-course.eu/tkinter_buttons.php
 
+Tkinter Course - Create Graphic User Interfaces in Python Tutorial
+https://www.youtube.com/watch?v=YXPyB4XeYLA&t=9618s
+
+Tkinter Gridline
+https://effbot.org/tkinterbook/grid.htm
+
+
 ---Database Tutorial---
 Python SQlite Tutorial - created by Corey Schafer:
 https://www.youtube.com/watch?v=pd-0G0MigUA
@@ -19,5 +26,9 @@ https://www.sqlitetutorial.net/sqlite-python/
 
 LikeGeeks SQlite Tutorial:
 https://likegeeks.com/python-sqlite3-tutorial/
+
+
+--Etc--
+https://www.w3schools.com/python/python_try_except.asp
 
 
