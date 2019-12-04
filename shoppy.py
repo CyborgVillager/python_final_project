@@ -138,9 +138,9 @@ while (run == True):
     print("--Press 5 for Checkout\n")
     print("--Press 6 for Exit\n")
 
+    if (userinput == "6"):
     print("=====================================================================")
     userinput = input("Enter your choice: ")
-    if (userinput == "6"):
         run = False
         filename = "products.csv"
         with open(filename, 'w', newline="") as csv_file:

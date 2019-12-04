@@ -1,7 +1,7 @@
 '''''''''
 A program that stores dvd information:
 Title,Author
-Year,ISBN
+Year,ISBN, Quantity
 
 User can:
 View all records
