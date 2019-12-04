@@ -115,7 +115,7 @@ def addto_cart_command():
     file.close()
 
 
-#read checkout command/ ensure stripping info for better readability
+#re-read checkout info if user exit the program, pretty much saves the info
 def checkout_command():
     # backend.checkout(selected_tuple[0], title_text.get(), author_text.get(), year_text.get(), isbn_text.get(),
     #                  price_text.get(), quantity_text.get())
@@ -157,15 +157,16 @@ def checkout_command():
     file.close()
     subTotal = price
     percent = .7
+    two = 2
     tax = subTotal * percent
 #results / print out the information
-    print('Your subTotal is: $' + str(round(subTotal,2)))
-    print('Your tax amount is: $' + str(round(tax,2)))
+    print('Your subTotal is: $' + str(round(subTotal,two)))
+    print('Your tax amount is: $' + str(round(tax,two)))
     total = subTotal + tax
-    print('Total Amount is: $' + str(round(total,2)))
+    print('Total Amount is: $' + str(round(total,two)))
 #message to the user
-    messagebox.showinfo("INVOICE", 'Your subTotal is: $' + str(round(subTotal,2))+'\n'+'Your tax amount is: $' +
-                        str(round(tax,2))+'\n'+'Total Amount is: $' + str(round(total,2)) + '\n' +
+    messagebox.showinfo("INVOICE", 'Your subTotal is: $' + str(round(subTotal,two))+'\n'+'Your tax amount is: $' +
+                        str(round(tax,two))+'\n'+'Total Amount is: $' + str(round(total,two)) + '\n' +
                         'Thank you for purchasing at Jonathan\'s DVD Shop!')
     os.remove('checkout.txt')
 
