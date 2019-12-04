@@ -1,15 +1,16 @@
 '''''''''
-A program that stores book information:
+A program that stores dvd information:
 Title,Author
 Year,ISBN
 
 User can:
 View all records
-Search an entry
-Add entry
-Update entry
-Delete
-Close
+Add Books
+Update Books
+Add to Cart
+Checkout Cart
+Delete Selected
+Exit
 '''''''''
 from tkinter import *
 import webbrowser
